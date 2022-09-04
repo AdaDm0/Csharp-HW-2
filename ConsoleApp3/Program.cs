@@ -17,36 +17,22 @@ namespace ConsoleApp3
             Кроме механизма шифровки, реализуйте механизм расшифрования.*/
 
             int key = 1;
-            string word1;
-
             Console.WriteLine("Введите слово:   ");
-            word1 = Console.ReadLine();
 
-            string encryption (string word)
+            char[] word = Console.ReadLine().ToCharArray();
+
+            for (int i = 0; i < word.Length; i++)
             {
-                
-                for (int i = 0; i<word.Length;i++)
-                {
-                    word.Replace(word[i], Convert.ToChar(Convert.ToInt32(word[i]) + key));
-                }
-                Console.WriteLine("Результат зашифровки: " + word);
-                return word;
+                word[i] = Convert.ToChar(Convert.ToInt32(word[i]) + key);
             }
+            Console.WriteLine("Encryption result:   " + new string (word));
 
-            string decoding(string word)
+            for (int i = word.Length - 1; i >= 0; i--)
             {
-
-                for (int i = word.Length-1; i >=0; i--)
-                {
-                    word.Replace(word[i], Convert.ToChar(Convert.ToInt32(word[i]) - key));
-                }
-                Console.WriteLine("Результат расшифровки: " + word);
-                return word;
+                word[i] = Convert.ToChar(Convert.ToInt32(word[i]) - key);
             }
-
-            word1 = encryption(word1);
-            word1 = decoding(word1);
-
+            
+            Console.WriteLine("Decoding result:   " + new string (word));
         }
     }
 }
