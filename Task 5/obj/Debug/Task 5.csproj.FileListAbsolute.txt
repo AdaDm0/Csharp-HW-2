@@ -1,0 +1,8 @@
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\bin\Debug\Task 5.exe.config
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\bin\Debug\Task 5.exe
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\bin\Debug\Task 5.pdb
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\obj\Debug\Task 5.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\obj\Debug\Task 5.csproj.SuggestedBindingRedirects.cache
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\obj\Debug\Task 5.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\obj\Debug\Task 5.exe
+C:\Users\Анастасия\Source\Repos\C-HW-2\Task 5\obj\Debug\Task 5.pdb
